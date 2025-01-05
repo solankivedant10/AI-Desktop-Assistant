@@ -1,0 +1,27 @@
+[
+    {
+        "timestamp": "2025-01-05 13:57:47",
+        "command": "heyy",
+        "response": "Hello! How can I help you today?"
+    },
+    {
+        "timestamp": "2025-01-05 13:57:52",
+        "command": "open google",
+        "response": "Opening Google..."
+    },
+    {
+        "timestamp": "2025-01-05 13:58:05",
+        "command": "search virat kohli on wikipedia",
+        "response": "Your External IP is 43.249.234.162\nYour Local IP is 192.168.0.101"
+    },
+    {
+        "timestamp": "2025-01-05 13:58:12",
+        "command": "what is my location",
+        "response": "Sorry, the location service is temporarily unavailable"
+    },
+    {
+        "timestamp": "2025-01-05 13:58:15",
+        "command": "ip",
+        "response": "Your External IP is 43.249.234.162\nYour Local IP is 192.168.0.101"
+    }
+]

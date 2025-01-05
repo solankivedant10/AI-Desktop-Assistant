@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-robot"></i> AI Assistant</h1>
+        <div id="chat-container">
+            <div id="chat-history"></div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your command or question...">
+            <button onclick="sendCommand()" title="Send message">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+        <div class="suggestions">
+            <div class="suggestion-chip" onclick="useCommand('hello')">👋 Say Hello</div>
+            <div class="suggestion-chip" onclick="useCommand('what time is it')">🕒 Check Time</div>
+            <div class="suggestion-chip" onclick="useCommand('show my location')">📍 Show Location</div>
+            <div class="suggestion-chip" onclick="useCommand('show my ip')">🌐 Show IP</div>
+            <div class="suggestion-chip" onclick="useCommand('open youtube')">▶️ Open YouTube</div>
+            <div class="suggestion-chip" onclick="useCommand('wikipedia AI')">📚 AI on Wikipedia</div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html> 
